@@ -20,7 +20,6 @@ class App extends Component {
       c.value = 0;
       return c;
     });
-    console.log("🚀 ~ file: App.js:23 ~ App ~ counters ~ counters", counters)
     this.setState({ counters:counters  });
   };
   handleIncrement = (counter) => {
